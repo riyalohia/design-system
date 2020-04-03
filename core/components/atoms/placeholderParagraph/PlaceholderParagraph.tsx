@@ -5,6 +5,7 @@ export type Sizes = 'small' | 'medium' | 'large';
 
 export interface IPlaceholderParagraphProps {
   /**
+   * Size of `placeholder`
    * @default "medium"
    */
   length?: Sizes;

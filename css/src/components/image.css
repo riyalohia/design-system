@@ -1,0 +1,10 @@
+.Image {
+  margin-left: var(--spacing);
+  margin-right: var(--spacing);
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--stone-lightest);
+}

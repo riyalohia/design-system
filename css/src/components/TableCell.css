@@ -1,0 +1,59 @@
+.TableCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.TableCell-wrapper {
+  display: flex;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
+  box-sizing: border-box;
+}
+
+.TableCell-seperator {
+  border-right: var(--border);
+}
+
+.TableCell-status {
+  justify-content: flex-start;
+  padding-left: var(--spacing-l);
+}
+
+.TableCell-checkboxOnly {
+  align-items: flex-start;
+}
+
+.TableCell-avatarOnly,
+.TableCell-imageOnly {
+  padding-left: var(--spacing-m);
+}
+
+.TableCell-textwrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.TableCell-textwrapper--image {
+  margin-left: var(--spacing-m);
+}
+
+.TableCell--left {
+  justify-content: flex-start;
+}
+
+.TableCell--center {
+  justify-content: center;
+}
+
+.TableCell--right {
+  justify-content: flex-end;
+}
